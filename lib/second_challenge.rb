@@ -10,7 +10,7 @@ def second_challenge
 
   groc = []
 
-  groc << groceries.values
+  groc << groceries.values.values
 
   groc
 end
