@@ -13,4 +13,5 @@ def second_challenge
       new_arr << item
     end
   end
+  new_arr
 end
