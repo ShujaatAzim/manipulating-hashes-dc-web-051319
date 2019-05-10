@@ -7,10 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
-  groc = []
-
-  groc << groceries.values.values
-
-  groc
+  new_arr = []
+  groceries.collect do |key, value|
+    value.each do |item|
+      new_arr << item
+    end
+  end
 end
